@@ -8,7 +8,7 @@ env:
   global:
     - QEMU_VERSION=v2.11.0
     - GITHUB_REPO=minio/minio
-    - REGISTRY=carlosedp
+    - REGISTRY=akolk
     - IMAGE=minio
     - TARGET=arm64v8 QEMU_ARCH=aarch64 TAG=arm64
 
