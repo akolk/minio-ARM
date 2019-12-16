@@ -23,8 +23,7 @@ RUN \
      apk add --no-cache --virtual .build-deps curl && \
      echo 'hosts: files mdns4_minimal [NOTFOUND=return] dns mdns4' >> /etc/nsswitch.conf && \
      chmod +x /usr/bin/minio  && \
-     chmod +x /usr/bin/docker-entrypoint.sh && \
-     chmod +x /usr/bin/healthcheck.sh
+     chmod +x /usr/bin/docker-entrypoint.sh
 
 
 RUN \
