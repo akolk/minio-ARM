@@ -6,7 +6,7 @@ services:
 
 env:
   global:
-    - QEMU_VERSION=v2.11.0
+    - QEMU_VERSION=v4.1.1-1
     - GITHUB_REPO=minio/minio
     - REGISTRY=akolk
     - IMAGE=minio
