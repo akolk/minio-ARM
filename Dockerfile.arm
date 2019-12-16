@@ -15,8 +15,8 @@ MAINTAINER Carlos Eduardo de Paula<carlosedp@gmail.com>
 COPY minio dockerscripts/docker-entrypoint.sh  /usr/bin/
 
 ENV MINIO_UPDATE off
-ENV MINIO_ACCESS_KEY_FILE=access_key \
-    MINIO_SECRET_KEY_FILE=secret_key
+ENV MINIO_ACCESS_KEY=access_key \
+    MINIO_SECRET_KEY=secret_key
 
 RUN \
      apk add --no-cache ca-certificates && \
